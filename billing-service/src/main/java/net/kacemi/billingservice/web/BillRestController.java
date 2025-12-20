@@ -43,6 +43,7 @@ public class BillRestController {
         Customer customer = customerServiceRestClient.findCustomerById(bill.getCustomerId());
          bill.setCustomer(customer);
 
+         
 
         return bill;
 
